@@ -1,0 +1,13 @@
+<div class="todos-filter">
+	<ul class="todos-filter__filter">
+		<li class="todos-filter__filter_item" ng-class="{ 'todos-filter__filter_item--active': todosFilterCtrl.filter == 'all' }" ng-click="todosFilterCtrl.changeFilter('all')">
+			All
+		</li>
+		<li class="todos-filter__filter_item" ng-class="{ 'todos-filter__filter_item--active': todosFilterCtrl.filter == 'active' }" ng-click="todosFilterCtrl.changeFilter('active')">
+			Active
+		</li>
+		<li class="todos-filter__filter_item" ng-class="{ 'todos-filter__filter_item--active': todosFilterCtrl.filter == 'completed' }" ng-click="todosFilterCtrl.changeFilter('completed')">
+			Completed
+		</li>
+	</ul>
+</div>

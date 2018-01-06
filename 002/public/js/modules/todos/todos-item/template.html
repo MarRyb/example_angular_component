@@ -1,0 +1,4 @@
+<div class="todos-item" ng-hide="(todosItemCtrl.filter == 'active' && todosItemCtrl.item.is_done == true) || (todosItemCtrl.filter == 'completed' && todosItemCtrl.item.is_done == false)">
+	<input type="checkbox" ng-checked="todosItemCtrl.item.is_done" ng-model="todosItemCtrl.item.is_done" ng-change="todosItemCtrl.todoExecution()">
+	<div class="todos-item__title" ng-class="{'todos-item__title--done': todosItemCtrl.item.is_done}">{{todosItemCtrl.item.title}}</div>
+</div>
