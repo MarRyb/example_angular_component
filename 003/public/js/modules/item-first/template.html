@@ -1,0 +1,9 @@
+<p
+	class="list-view__item"
+	ng-class="{'list-view__item--selected': itemFirstCtrl.selectedItem == itemFirstCtrl.item}"
+	ng-click="itemFirstCtrl.selectObject(itemFirstCtrl.item)"
+> 
+	Name: {{itemFirstCtrl.item.name}}
+	<br>
+	Description: {{itemFirstCtrl.item.description}}
+</p>

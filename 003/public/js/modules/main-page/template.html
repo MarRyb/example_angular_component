@@ -1,0 +1,22 @@
+<main-header delay="mainPageCtrl.delay" number-of-items="mainPageCtrl.numberOfItems" apply="mainPageCtrl.apply"></main-header>
+<div class="main-page">
+	<div class="main-page__block">
+		<item-first item="item" 
+		select-object="mainPageCtrl.selectObject" 
+		selected-item="mainPageCtrl.selectedItem"
+		ng-repeat="item in mainPageCtrl.data"></item-first>
+	</div>
+	<div class="main-page__block">
+		<item-second item="item" 
+		select-object="mainPageCtrl.selectObject" 
+		selected-item="mainPageCtrl.selectedItem"
+		ng-repeat="item in mainPageCtrl.data"></item-second>
+	</div>
+	<div class="main-page__block">
+		<item-third 
+		item="item" 
+		select-object="mainPageCtrl.selectObject" 
+		selected-item="mainPageCtrl.selectedItem"
+		ng-repeat="item in mainPageCtrl.data"></item-third>
+	</div>
+</div>

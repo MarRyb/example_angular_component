@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #eee;
+}
+.list-view__item {
+	font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+    background: #fefefe;
+    border: solid 1px #efefef;
+    border-radius: 3px;
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.20);
+}
+.main-page {
+	display: flex;
+}
+.main-page__block {
+	width: 33%;
+	padding: 5px 10px;
+}
+.list-view__item--selected {
+	background-color: #426daa;
+    border-color: #334faa;
+    color: #fff;
+}
+.main-header {
+	background: white;
+	line-height: 50px;
+    padding: 10px;
+    font-size: 16px;
+}
